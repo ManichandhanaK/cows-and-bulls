@@ -1,7 +1,7 @@
 // game.js
 const secretNumber = localStorage.getItem("secretNumber");
 const playerName = localStorage.getItem("playerName");
-const numberOfDigits = 4; // Always set the length to 4
+const numberOfDigits = 3; // Always set the length to 4
 
 let attempts = 0;
 const guessHistory = document.getElementById("guessHistory");
