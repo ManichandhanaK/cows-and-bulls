@@ -11,7 +11,7 @@ document.getElementById('startGame').addEventListener('click', () => {
   localStorage.setItem('playerName', playerName);
   
   // Set the number of digits to 4
-  const numberOfDigits = 4;
+  const numberOfDigits = 3;
   localStorage.setItem('numberOfDigits', numberOfDigits);
 
   // Generate a secret number with 4 unique digits
